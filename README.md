@@ -1,5 +1,5 @@
-# ENA-Code
-Any bits of code written for ENA
+# ENA-md5-checker
+Code written for the covid-utils drag and drop tool
 
 ## checksum_md5_script_v6.sh
 Script to compare md5 values for the read files submitted using the covid-utils tool.
