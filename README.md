@@ -1,5 +1,6 @@
-# ENA-md5-checker
-File intergrity code written for the covid-utils drag and drop tool
+# ENA-Code contents:
+1. checksum_md5_script_v6.sh: File intergrity code written for the covid-utils drag and drop tool
+2.
 
 ## checksum_md5_script_v6.sh
 Script to compare md5 values for the read files submitted using the covid-utils tool.
