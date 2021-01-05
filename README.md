@@ -10,5 +10,4 @@ Things to note:
 - this script works successfully on the ebi-cli cluster; but **does not currently work on a Mac or PyCharm terminal** due to discrepancies between Linux (GNU) and Mac (BSD) outputs of the 'md5sum' command
 
 ## covid_file_transfer_full.bash
-Run script as follows: sh covid_file_transfer_full.bash <UUID> <username>
-eg: sh covid_file_transfer_full.bash 58b02410-887c-4294-b3b9-58253c907193 zahra
+Run script as follows: sh covid_file_transfer_full.bash <UUID> <username>  eg: sh covid_file_transfer_full.bash 58b02410-887c-4294-b3b9-58253c907193 zahra
