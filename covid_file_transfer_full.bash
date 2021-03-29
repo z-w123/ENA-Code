@@ -29,6 +29,3 @@ cd submission_files_${UUID}
 ##improvements TODO:
 #1) Add option to transfer specific files only to cluster rather than everything ? maybe by default copy over everything, but if you want to copy specific files, have a warning message and provide user option to type in?
 
-#2) automate aws user input? 
-#	option 1: pipe the contents of text file with credentials:  cat "aws_credentials.txt" | ./part_2_covid_file_transfer.bash, but gives error: Pseudo-terminal will not be allocated because stdin is not a terminal.
-#	option 2 : write an expect script cont. credentials and then call that from this bash script (but this does not seem to work on git bash)
