@@ -8,7 +8,7 @@ jobs: # A workflow run is made up of one or more jobs, which run in parallel by 
     runs-on: ubuntu-latest # defining the runner (machines that execute the actions in the workflow) # ubuntu-latest most commonly used
     steps:
       - name: Print a confirmation message
-        run: echo You've just pushed to the ENA-Code repo!  
+        run: echo "You've just pushed to the ENA-Code repo!"  
     
        
       
