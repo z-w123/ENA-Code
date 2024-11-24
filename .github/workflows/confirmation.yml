@@ -1,0 +1,15 @@
+name: Confirmation message  # name of workflow
+
+on: push # which events cause the workflow to run
+
+jobs: # A workflow run is made up of one or more jobs, which run in parallel by default
+  job_1: # unique identifier for a job
+    name: Confirmation_message # explicitly stating job name
+    runs-on: ubuntu-latest # defining the runner (machines that execute the actions in the workflow) # ubuntu-latest most commonly used
+    steps:
+      - name: Print a confirmation message
+        run: echo You've just pushed to the ENA-Code repo!  
+    
+       
+      
+    
